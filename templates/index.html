@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Multi System prompt Bot</title>
+    <link
+    rel="stylesheet"
+    href="{{ url_for('static', filename='styles.css') }}"
+  /> 
+  
+  </head>
+<body>
+    <div class="container">
+        <h1>Multi System Prompt Bot</h1>
+        <form method="post">
+            <div class="form-group">
+                <label for="input_text">Enter your topic, dish, or date:</label>
+                <input type="text" id="input_text" name="input_text" required>
+            </div>
+            <div class="form-group">
+                <label for="task_choice">Choose a task:</label>
+                <select id="task_choice" name="task_choice">
+                    <option value="Joke">Joke</option>
+                    <option value="Chef">Chef</option>
+                    <option value="News">News</option>
+                </select>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+        <div class="response">
+            <h2>Response:</h2>
+            <p>{{ response }}</p>
+        </div>
+    </div>
+</body>
+</html>
