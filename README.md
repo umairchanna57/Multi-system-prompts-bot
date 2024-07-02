@@ -29,7 +29,7 @@ This project is an AI chatbot utilizing the LLM Mistral Algorithm to provide var
 
 4. **Create a `.env` file and add your secret key**:
     ```env
-    SEC_KEY=your_secret_key_here
+    SEC_KEY=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
     ```
 
 5. **Run the application**:
