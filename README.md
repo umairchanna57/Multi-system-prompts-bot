@@ -27,10 +27,6 @@ This project is an AI chatbot utilizing the LLM Mistral Algorithm to provide var
     pip install -r requirements.txt
     ```
 
-4. **Create a `.env` file and add your secret key**:
-    ```env
-    SEC_KEY=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
-    ```
 
 5. **Run the application**:
     ```bash
