@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Multi-System Prompts Bot
 
 This project is an AI chatbot utilizing the LLM Mistral Algorithm to provide various functionalities through system prompts. The bot can tell jokes, provide cooking recipes, and give up-to-date news about the War in Palestine.
@@ -65,3 +66,6 @@ This project is an AI chatbot utilizing the LLM Mistral Algorithm to provide var
   <img width="512" src="static/img/news.png">
 </div>
 
+=======
+# Initial commit
+>>>>>>> ac3c031 (Initial commit)
